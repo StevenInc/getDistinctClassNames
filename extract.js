@@ -4,7 +4,7 @@ var Extract = function(){
 
    var parseClassNames = function(){
      	jQuery("*").each(function(){
-   			console.info($(this).attr("class"));
+   			//console.info($(this).attr("class"));
    			_addClassName($(this).attr("class"));
    		});
    };
